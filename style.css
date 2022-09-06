@@ -1,0 +1,71 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+.backgroundsection{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("images3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.panelBox{
+    width: 30vw;
+    height: 70vh;
+    margin-left: 30%;
+    background-color: antiquewhite;
+    background-image: url("image2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-color: blue;
+    border-radius: 15%;
+}
+.heading1{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    font-size: 220%;
+    margin-bottom: 4px;
+}
+.adminimage{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.color{
+    color: chartreuse;
+}
+.welcome{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    color: orangered;
+    font-weight: 900;
+    font-size: larger;
+}
+input[type=text] {
+    background: bisque;
+    border: none;
+    border-bottom: 1px solid #000000;
+}
+.textcolor{
+    color: white;
+    margin-left: 35px;
+    margin-bottom: 19px;
+}
+#loginbutton{
+    margin-left: 37%;
+    font-size: 130%;
+    font-weight: 600;
+    margin-bottom: 19px;
+}
+.changepassword{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 110%;
+}
+
